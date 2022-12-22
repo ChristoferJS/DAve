@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.topbar {
+    top: 0;
+    position: sticky;
+    background-color: rgba(17, 17, 17, 0.5);
+    height: 60px;
+    width: 100%;
+    padding-top: 0.6em;
+}
+
+a.logobtn {
+    font-size: 2em;
+    font-weight: 700;
+    margin-left: 5em;
+    color: white;
+}
+
+a.logobtn,
+a.link {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+a.link {
+    font-weight: 300;
+    font-size: 1.3em;
+    margin-left: 2em;
+    color: gainsboro;
+    transition: 250ms ease-in-out;
+}
+
+a.active {
+    color: #fcd308;
+}
+
+li.list {
+    float: right;
+    list-style: none;
+    margin-top: 0.6em;
+    margin-right: 7em;
+}
+
+.intro-container {
+    background-color: rgb(30, 29, 29);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    height: 490px;
+    border-radius: 25px;
+    margin-top: 4em;
+    overflow: hidden;
+}
+
+.card-main-content {
+    display: inline-block;
+    padding: 3em 2em 8em 2em;
+}
+
+h1.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 5em;
+    color: white;
+    line-height: 0.9;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p.short {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: gainsboro;
+    font-size: 20px;
+    width: 500px;
+    margin-top: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+p.btntext {
+    padding: 1em;
+    background-color: #fcd308;
+    width: 7em;
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+
+.intro-container img {
+    float: right;
+    width: 500px;
+    height: auto;
+}
+
+.aboutme {
+    height: 650px;
+}
+
+.aboutmeContent {
+    background-color: rgb(30, 29, 29);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    height: 490px;
+    border-radius: 25px;
+    margin-top: 10em;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
