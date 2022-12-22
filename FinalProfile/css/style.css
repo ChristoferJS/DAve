@@ -6,6 +6,7 @@ body {
     background-color: rgb(17, 17, 17);
     overflow-x: hidden;
     margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 .topbar {
@@ -108,18 +109,121 @@ p.btntext {
 }
 
 .aboutme {
-    height: 650px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .aboutmeContent {
+    display: flex;
+    margin: 8em;
+}
+
+h1.abouttitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 9.4em;
+    margin-bottom: 0px;
+    line-height: 0.8;
+}
+
+h1.abouttitle span {
+    position: absolute;
+    font-size: 0.5em;
+    margin-top: -40px;
+    margin-left: -70px;
+}
+
+p.description-new {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: gainsboro;
+    font-size: 1.5em;
+}
+
+.paragraph-div {
+    margin: 4em 0em 2em 4em;
+    width: 600px;
+    height: 400px;
     background-color: rgb(30, 29, 29);
-    margin-left: auto;
-    margin-right: auto;
-    width: 1110px;
-    height: 490px;
-    border-radius: 25px;
-    margin-top: 10em;
+    border-radius: 15px;
+    padding: 0em 0.5em 0em 0.5em;
+    overflow-y: scroll;
+}
+
+.paragraph-div::-webkit-scrollbar {
+    width: 5px;
+}
+
+.paragraph-div::-webkit-scrollbar-track {
+    background-color: rgb(22, 22, 22);
+}
+
+.paragraph-div::-webkit-scrollbar-thumb {
+    background-color: #fcd308;
+    border-radius: 15px;
+}
+
+p.text-about {
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+    color: rgb(204, 204, 204);
+    margin: 1.5em 1em 1.5em 1em;
+    line-height: 1.5;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+
+p.text-about::before {
+    content: "<!--";
+    color: rgb(163, 163, 163);
+}
+
+p.text-about::after{
+    content: "-->";
+    color: rgb(163, 163, 163);
+}
+
+.skills-text {
+    float: right;
+    text-align: right;
+    margin-right: 8em;
+    width: 410px;
     overflow: hidden;
+}
+
+h1.skills-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 6em;
+    line-height: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p.skills-paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: gainsboro;
+    font-size: 23px;
+}
+
+.skills-container {
+    background-color: rgb(30, 29, 29);
+    width: 600px;
+    height: 200px;
+    margin-left: 8em;
+    border-radius: 15px;
+    padding: 1em 1.3em 1em 1.3em;
+}
+
+h3.container-title {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-weight: 700;
+    margin-top: 0px;
+    font-size: 2em;
 }
 
 
